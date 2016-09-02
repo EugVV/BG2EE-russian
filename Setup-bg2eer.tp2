@@ -1,0 +1,164 @@
+BACKUP ~bg2eer/backup~
+AUTHOR ~Si1ver~
+VERSION ~V1.1~
+
+BEGIN ~Russian text for Baldurs Gate II: Enhanced Edition v2.3~
+STRING_SET_RANGE #0 #103216 USING ~bg2eer/tra/bg2eer.tra~
+
+BEGIN ~Override Male/Female CRE for Russian text~
+COPY_EXISTING ~amconm01.cre~ ~override~
+                            ~amconm02.cre~ ~override~
+                            ~amintm01.cre~ ~override~
+                            ~amman01.cre~ ~override~
+                            ~amman02.cre~ ~override~
+                            ~amman03.cre~ ~override~
+                            ~amman04.cre~ ~override~
+                            ~bdaud03.cre~ ~override~
+                            ~chgood01.cre~ ~override~
+                            ~chgood02.cre~ ~override~
+                            ~chgood03.cre~ ~override~
+                            ~dmask1.cre~ ~override~
+                            ~gmtown01.cre~ ~override~
+                            ~gmtown02.cre~ ~override~
+                            ~ilman01.cre~ ~override~
+                            ~mtown6.cre~ ~override~
+                            ~pircom01.cre~ ~override~
+                            ~postul2.cre~ ~override~
+                            ~postul4.cre~ ~override~
+                            ~sbutler.cre~ ~override~
+                            ~udcom01.cre~ ~override~
+                            ~victown1.cre~ ~override~
+  SAY NAME1 #9428
+  SAY NAME2 #9428
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~amconw01.cre~ ~override~
+                            ~amcust01.cre~ ~override~
+                            ~amfem01.cre~ ~override~
+                            ~amfem02.cre~ ~override~
+                            ~amfem03.cre~ ~override~
+                            ~amfem04.cre~ ~override~
+                            ~amintw01.cre~ ~override~
+                            ~amintw02.cre~ ~override~
+                            ~bfishw1.cre~ ~override~
+                            ~bftown1.cre~ ~override~
+                            ~bftown2.cre~ ~override~
+                            ~bftown3.cre~ ~override~
+                            ~copcust2.cre~ ~override~
+                            ~dftown1.cre~ ~override~
+                            ~dftown2.cre~ ~override~
+                            ~ffcrowd4.cre~ ~override~
+                            ~ffcrowd5.cre~ ~override~
+                            ~ftown1.cre~ ~override~
+                            ~ftown2.cre~ ~override~
+                            ~ftown3.cre~ ~override~
+                            ~ftown4.cre~ ~override~
+                            ~ftown5.cre~ ~override~
+                            ~ftown6.cre~ ~override~
+                            ~gftown01.cre~ ~override~
+                            ~gftown02.cre~ ~override~
+                            ~life05.cre~ ~override~
+                            ~life06.cre~ ~override~
+                            ~mumfig01.cre~ ~override~
+                            ~pircom02.cre~ ~override~
+                            ~slumf1.cre~ ~override~
+                            ~slumf2.cre~ ~override~
+                            ~udcom02.cre~ ~override~
+                            ~victown2.cre~ ~override~
+  SAY NAME1 #9429
+  SAY NAME2 #9429
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9428 #9429 USING ~bg2eer/tra/mf-commr.tra~
+
+COPY_EXISTING ~announ.cre~ ~override~
+                            ~bmtown1.cre~ ~override~
+                            ~bmtown2.cre~ ~override~
+                            ~bmtown3.cre~ ~override~
+                            ~copcust1.cre~ ~override~
+                            ~custom.cre~ ~override~
+                            ~dmtown1.cre~ ~override~
+                            ~dmtown2.cre~ ~override~
+                            ~dpmale.cre~ ~override~
+                            ~ffcrowd3.cre~ ~override~
+                            ~life1.cre~ ~override~
+                            ~life2.cre~ ~override~
+                            ~life3.cre~ ~override~
+                            ~life4.cre~ ~override~
+                            ~mtown1.cre~ ~override~
+                            ~mtown2.cre~ ~override~
+                            ~mtown3.cre~ ~override~
+                            ~mtown4.cre~ ~override~
+                            ~pick2.cre~ ~override~
+                            ~sarman02.cre~ ~override~
+                            ~sarman03.cre~ ~override~
+                            ~sarman04.cre~ ~override~
+                            ~servant.cre~ ~override~
+                            ~slumm1.cre~ ~override~
+                            ~slumm2.cre~ ~override~
+                            ~slumm3.cre~ ~override~
+                            ~slumm4.cre~ ~override~
+                            ~stage01.cre~ ~override~
+                            ~tour01.cre~ ~override~
+                            ~towncr.cre~ ~override~
+                            ~train01.cre~ ~override~
+                            ~wpcust1.cre~ ~override~
+  SAY NAME1 #9430
+  SAY NAME2 #9430
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~dpfemale.cre~ ~override~
+                            ~pick1.cre~ ~override~
+                            ~sarfem02.cre~ ~override~
+                            ~sarfem03.cre~ ~override~
+                            ~sarfem04.cre~ ~override~
+  SAY NAME1 #9431
+  SAY NAME2 #9431
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9430 #9431 USING ~bg2eer/tra/mf-peasn.tra~
+
+COPY_EXISTING ~amarch02.cre~ ~override~
+                            ~amcst02.cre~ ~override~
+                            ~amduel01.cre~ ~override~
+                            ~amduel02.cre~ ~override~
+                            ~ammerc03.cre~ ~override~
+                            ~ammerc07.cre~ ~override~
+                            ~ammerc08.cre~ ~override~
+                            ~ammerc09.cre~ ~override~
+                            ~ar18fig.cre~ ~override~
+                            ~ohdby02.cre~ ~override~
+                            ~termer01.cre~ ~override~
+                            ~termer02.cre~ ~override~
+                            ~termer04.cre~ ~override~
+                            ~termer05.cre~ ~override~
+  SAY NAME1 #11748
+  SAY NAME2 #11748
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~amcst03.cre~ ~override~
+                            ~ammerc04.cre~ ~override~
+                            ~termer03.cre~ ~override~
+  SAY NAME1 #11749
+  SAY NAME2 #11749
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #11748 #11749 USING ~bg2eer/tra/mf-mercn.tra~
+
+COPY_EXISTING ~bprost1.cre~ ~override~
+                            ~bprost2.cre~ ~override~
+                            ~pircor01.cre~ ~override~
+                            ~pircor04.cre~ ~override~
+                            ~pircor06.cre~ ~override~
+                            ~sarprovf.cre~ ~override~
+  SAY NAME1 #19710
+  SAY NAME2 #19710
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~pircor03.cre~ ~override~
+                            ~sarprovm.cre~ ~override~
+  SAY NAME1 #48493
+  SAY NAME2 #48493
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #48493 #48493 USING ~bg2eer/tra/mf-court.tra~
