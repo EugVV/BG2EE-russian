@@ -164,3 +164,23 @@ COPY_EXISTING ~pircor03.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #48493 #48493 USING ~bg2eer/tra/mf-court.tra~
+
+COPY_EXISTING ~figpit.cre~ ~override~
+                            ~ppstor01.cre~ ~override~
+                            ~shop07.cre~ ~override~
+                            ~shop1.cre~ ~override~
+                            ~shop3.cre~ ~override~
+                            ~shop4.cre~ ~override~
+                            ~shop7.cre~ ~override~
+  SAY NAME1 #9408
+  SAY NAME2 #9408
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~bshop02.cre~ ~override~
+                            ~shop2.cre~ ~override~
+                            ~slshop02.cre~ ~override~
+  SAY NAME1 #9409
+  SAY NAME2 #9409
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9408 #9409 USING ~bg2eer/tra/mf-stork.tra~
