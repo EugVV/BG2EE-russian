@@ -184,3 +184,46 @@ COPY_EXISTING ~bshop02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9408 #9409 USING ~bg2eer/tra/mf-stork.tra~
+
+COPY_EXISTING ~c6elf1.cre~ ~override~
+                            ~c6elf2.cre~ ~override~
+                            ~c6elf4.cre~ ~override~
+                            ~c6extr01.cre~ ~override~
+                            ~chgood04.cre~ ~override~
+                            ~cupris1.cre~ ~override~
+                            ~cupris2.cre~ ~override~
+                            ~m05elf1.cre~ ~override~
+                            ~sudead01.cre~ ~override~
+                            ~sudead03.cre~ ~override~
+                            ~suelf13.cre~ ~override~
+                            ~suelf3.cre~ ~override~
+                            ~suelf6.cre~ ~override~
+                            ~suelf7.cre~ ~override~
+                            ~suelfw1.cre~ ~override~
+                            ~suelfw2.cre~ ~override~
+                            ~suelfw3.cre~ ~override~
+                            ~suelfw4.cre~ ~override~
+                            ~suelfw5.cre~ ~override~
+                            ~suelfw6.cre~ ~override~
+                            ~suelfw7.cre~ ~override~
+                            ~suelfw8.cre~ ~override~
+                            ~suelleg1.cre~ ~override~
+                            ~suendel1.cre~ ~override~
+                            ~suendel7.cre~ ~override~
+                            ~sumoon.cre~ ~override~
+  SAY NAME1 #43964
+  SAY NAME2 #43964
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~c6extr03.cre~ ~override~
+                            ~chgood05.cre~ ~override~
+                            ~m05elf2.cre~ ~override~
+                            ~sudead02.cre~ ~override~
+                            ~suelf8.cre~ ~override~
+                            ~suendel2.cre~ ~override~
+                            ~suendel8.cre~ ~override~
+  SAY NAME1 #43965
+  SAY NAME2 #43965
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #43964 #43965 USING ~bg2eer/tra/mf-elvwa.tra~
