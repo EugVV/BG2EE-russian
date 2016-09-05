@@ -3,7 +3,7 @@ BG2EE-russian
 
 Русский перевод Baldur's Gate 2: Enhanced Edition (Si1ver)
 
-Версия перевода: 0.92 бета
+Версия перевода: 0.93 бета
 
 Необходимая версия игры: 2.3.67.3(.2) (будет работать и с более ранними версиями, но возможны нестыковки в описаниях классов/заклинаний/предметов).
 
@@ -29,7 +29,7 @@ BG2EE-russian
 
 SetPrivateProfileString('Language','Text','ru_RU')
 
-Baldur.lua расположен для Windows-версии игры в папке Документы\Baldur's Gate II - Enhanced Edition для Linux-версии - в каталоге ~/.local/share/Baldur's Gate II - Enhanced Edition
+Baldur.lua расположен для Windows-версии игры в папке Документы\Baldur's Gate II - Enhanced Edition, для Linux-версии - в каталоге ~/.local/share/Baldur's Gate II - Enhanced Edition.
 Всё.
 
 Шрифты:
@@ -45,7 +45,7 @@ SetPrivateProfileString('Fonts','ru_RU','')
 
 Перевод основывается на акелловском варианте.
 
-Редактура - Si1ver.
+Редактура: Si1ver.
 
 Переводчики нового текста:
 Evilkiss (Константин Кайбияйнен),
@@ -61,3 +61,5 @@ Si1ver,
 Работа над шрифтами: Mutantovich
 
 Список будет ещё дополняться.
+
+[Тема для обсуждения перевода](https://yadi.sk/d/kfKpvTiZpdcgJ).
