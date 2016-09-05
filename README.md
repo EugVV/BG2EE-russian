@@ -62,4 +62,4 @@ Si1ver,
 
 Список будет ещё дополняться.
 
-[Тема для обсуждения перевода](https://yadi.sk/d/kfKpvTiZpdcgJ).
+[Тема для обсуждения перевода](http://www.arcanecoast.ru/forum/viewtopic.php?f=8&t=965).
