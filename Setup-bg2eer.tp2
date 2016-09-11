@@ -114,6 +114,18 @@ COPY_EXISTING ~dpfemale.cre~ ~override~
                             ~sarfem02.cre~ ~override~
                             ~sarfem03.cre~ ~override~
                             ~sarfem04.cre~ ~override~
+                            ~bdaud02.cre~ ~override~
+                            ~kchild2.cre~ ~override~
+                            ~postul3.cre~ ~override~
+                            ~postul5.cre~ ~override~
+                            ~sarfem01.cre~ ~override~
+                            ~trcut03.cre~ ~override~
+                            ~trftow02.cre~ ~override~
+                            ~trftow03.cre~ ~override~
+                            ~trftow04.cre~ ~override~
+                            ~trftow05.cre~ ~override~
+                            ~vvstand3.cre~ ~override~
+                            ~yspeas03.cre~ ~override~
   SAY NAME1 #9431
   SAY NAME2 #9431
   BUT_ONLY_IF_IT_CHANGES
