@@ -227,3 +227,16 @@ COPY_EXISTING ~c6extr03.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #43964 #43965 USING ~bg2eer/tra/mf-elvwa.tra~
+
+COPY_EXISTING ~csheck2.cre~ ~override~
+  SAY NAME1 #22358
+  SAY NAME2 #22358
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~csheck1.cre~ ~override~
+                            ~csheck3.cre~ ~override~
+  SAY NAME1 #22359
+  SAY NAME2 #22359
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #22358 #22359 USING ~bg2eer/tra/mf-heckl.tra~
