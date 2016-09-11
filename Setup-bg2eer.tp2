@@ -252,3 +252,28 @@ COPY_EXISTING ~csheck1.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #22358 #22359 USING ~bg2eer/tra/mf-heckl.tra~
+
+COPY_EXISTING ~daslave6.cre~ ~override~
+                            ~daslave7.cre~ ~override~
+                            ~slslav01.cre~ ~override~
+                            ~udilsla1.cre~ ~override~
+                            ~udilsla3.cre~ ~override~
+                            ~udslv01.cre~ ~override~
+                            ~udslv02.cre~ ~override~
+                            ~udslv03.cre~ ~override~
+                            ~udslv04.cre~ ~override~
+                            ~udvicti2.cre~ ~override~
+                            ~udvicti3.cre~ ~override~
+                            ~udvicti4.cre~ ~override~
+                            ~udvictim.cre~ ~override~
+  SAY NAME1 #13884
+  SAY NAME2 #13884
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~daslave2.cre~ ~override~
+                            ~daslave5.cre~ ~override~
+  SAY NAME1 #13885
+  SAY NAME2 #13885
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #13884 #13885 USING ~bg2eer/tra/mf-slave.tra~
