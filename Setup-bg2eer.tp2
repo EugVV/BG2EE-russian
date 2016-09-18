@@ -295,3 +295,25 @@ COPY_EXISTING ~deadb02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #34934 #34934 USING ~bg2eer/tra/mf-adven.tra~
+
+COPY_EXISTING ~ar18thif.cre~ ~override~
+                            ~deckass1.cre~ ~override~
+                            ~genth01.cre~ ~override~
+                            ~gentmg01.cre~ ~override~
+                            ~sargrd05.cre~ ~override~
+                            ~sargrd09.cre~ ~override~
+                            ~shthass3.cre~ ~override~
+  SAY NAME1 #13889
+  SAY NAME2 #13889
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~genth02.cre~ ~override~
+                            ~maeguy02.cre~ ~override~
+                            ~ohhghst1.cre~ ~override~
+                            ~ohhghst2.cre~ ~override~
+                            ~ohhghst3.cre~ ~override~
+  SAY NAME1 #13890
+  SAY NAME2 #13890
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #13889 #13890 USING ~bg2eer/tra/mf-thief.tra~
