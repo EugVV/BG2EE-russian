@@ -277,3 +277,21 @@ COPY_EXISTING ~daslave2.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #13884 #13885 USING ~bg2eer/tra/mf-slave.tra~
+
+COPY_EXISTING ~deadb01.cre~ ~override~
+                            ~deadb03.cre~ ~override~
+                            ~drpc.cre~ ~override~
+                            ~tanadv03.cre~ ~override~
+                            ~tanadv04.cre~ ~override~
+  SAY NAME1 #34932
+  SAY NAME2 #34932
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~deadb02.cre~ ~override~
+                            ~tanadv02.cre~ ~override~
+                            ~tanadv05.cre~ ~override~
+  SAY NAME1 #34934
+  SAY NAME2 #34934
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #34934 #34934 USING ~bg2eer/tra/mf-adven.tra~
