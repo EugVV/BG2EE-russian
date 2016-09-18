@@ -317,3 +317,18 @@ COPY_EXISTING ~genth02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #13889 #13890 USING ~bg2eer/tra/mf-thief.tra~
+
+COPY_EXISTING ~deltow01.cre~ ~override~
+                            ~deltow03.cre~ ~override~
+                            ~sbcust01.cre~ ~override~
+                            ~sbcust02.cre~ ~override~
+  SAY NAME1 #23724
+  SAY NAME2 #23724
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~deltow02.cre~ ~override~
+  SAY NAME1 #23725
+  SAY NAME2 #23725
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #23724 #23725 USING ~bg2eer/tra/mf-patrn.tra~
