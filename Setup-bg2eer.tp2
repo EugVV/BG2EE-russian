@@ -158,3 +158,12 @@ COPY_EXISTING ~beggar3.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9519 #9519 USING ~bg2eer/tra/mf-beggr.tra~
+
+COPY_EXISTING ~ffcust03.cre~ ~override~
+                            ~ffcust05.cre~ ~override~
+                            ~ftown7.cre~ ~override~
+  SAY NAME1 #9520
+  SAY NAME2 #9520
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9520 #9520 USING ~bg2eer/tra/mf-tvrnp.tra~
