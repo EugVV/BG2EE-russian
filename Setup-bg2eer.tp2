@@ -151,3 +151,10 @@ COPY_EXISTING ~deltow02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9518 #9518 USING ~bg2eer/tra/mf-patrn.tra~
+
+COPY_EXISTING ~beggar3.cre~ ~override~
+  SAY NAME1 #9519
+  SAY NAME2 #9519
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9519 #9519 USING ~bg2eer/tra/mf-beggr.tra~
