@@ -190,3 +190,19 @@ COPY_EXISTING ~mourner2.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9523 #9523 USING ~bg2eer/tra/mf-mourn.tra~
+
+COPY_EXISTING ~ohnfmer1.cre~ ~override~
+                            ~ohnmerc3.cre~ ~override~
+                            ~ohnrwme2.cre~ ~override~
+  SAY NAME1 #9524
+  SAY NAME2 #9524
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9524 #9524 USING ~bg2eer/tra/mf-thmrc.tra~
+
+COPY_EXISTING ~ohrovs2.cre~ ~override~
+  SAY NAME1 #9525
+  SAY NAME2 #9525
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9525 #9525 USING ~bg2eer/tra/mf-shovs.tra~
