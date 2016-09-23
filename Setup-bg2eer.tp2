@@ -267,3 +267,10 @@ COPY_EXISTING ~ar18arch.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9532 #9532 USING ~bg2eer/tra/mf-archr.tra~
+
+COPY_EXISTING ~worker02.cre~ ~override~
+  SAY NAME1 #9533
+  SAY NAME2 #9533
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9533 #9533 USING ~bg2eer/tra/mf-labor.tra~
