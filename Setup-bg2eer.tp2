@@ -235,3 +235,10 @@ COPY_EXISTING ~pthral02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9528 #9528 USING ~bg2eer/tra/mf-thral.tra~
+
+COPY_EXISTING ~qcirc02.cre~ ~override~
+  SAY NAME1 #9529
+  SAY NAME2 #9529
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9529 #9529 USING ~bg2eer/tra/mf-circw.tra~
