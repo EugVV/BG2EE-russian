@@ -274,3 +274,10 @@ COPY_EXISTING ~worker02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9533 #9533 USING ~bg2eer/tra/mf-labor.tra~
+
+COPY_EXISTING ~zilarc01.cre~ ~override~
+  SAY NAME1 #9534
+  SAY NAME2 #9534
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9534 #9534 USING ~bg2eer/tra/mf-blrvr.tra~
