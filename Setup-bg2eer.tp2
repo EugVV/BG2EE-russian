@@ -242,3 +242,10 @@ COPY_EXISTING ~qcirc02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9529 #9529 USING ~bg2eer/tra/mf-circw.tra~
+
+COPY_EXISTING ~reband04.cre~ ~override~
+  SAY NAME1 #9530
+  SAY NAME2 #9530
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9530 #9530 USING ~bg2eer/tra/mf-bandt.tra~
