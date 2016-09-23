@@ -174,3 +174,10 @@ COPY_EXISTING ~kaysmg04.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9521 #9521 USING ~bg2eer/tra/mf-smugg.tra~
+
+COPY_EXISTING ~kpfarm02.cre~ ~override~
+  SAY NAME1 #9522
+  SAY NAME2 #9522
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9522 #9522 USING ~bg2eer/tra/mf-citzn.tra~
