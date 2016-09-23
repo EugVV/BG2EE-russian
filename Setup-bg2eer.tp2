@@ -167,3 +167,10 @@ COPY_EXISTING ~ffcust03.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9520 #9520 USING ~bg2eer/tra/mf-tvrnp.tra~
+
+COPY_EXISTING ~kaysmg04.cre~ ~override~
+  SAY NAME1 #9521
+  SAY NAME2 #9521
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9521 #9521 USING ~bg2eer/tra/mf-smugg.tra~
