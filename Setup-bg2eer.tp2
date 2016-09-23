@@ -211,3 +211,11 @@ COPY_EXISTING ~ohrshr23.cre~ ~override~
   SAY NAME1 #84585
   SAY NAME2 #84585
   BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~bounha03.cre~ ~override~
+                            ~pbhunt03.cre~ ~override~
+  SAY NAME1 #9526
+  SAY NAME2 #9526
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9526 #9526 USING ~bg2eer/tra/mf-bnthn.tra~
