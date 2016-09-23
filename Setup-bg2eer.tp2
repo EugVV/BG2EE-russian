@@ -257,3 +257,13 @@ COPY_EXISTING ~riftw01.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9531 #9531 USING ~bg2eer/tra/mf-disea.tra~
+
+COPY_EXISTING ~ar18arch.cre~ ~override~
+                            ~mgketg02.cre~ ~override~
+                            ~vakg02.cre~ ~override~
+                            ~yarmy02.cre~ ~override~
+  SAY NAME1 #9532
+  SAY NAME2 #9532
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9532 #9532 USING ~bg2eer/tra/mf-archr.tra~
