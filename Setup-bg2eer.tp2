@@ -226,3 +226,12 @@ COPY_EXISTING ~pris01.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9527 #9527 USING ~bg2eer/tra/mf-prisn.tra~
+
+COPY_EXISTING ~pthral02.cre~ ~override~
+                            ~pthral04.cre~ ~override~
+                            ~pthral09.cre~ ~override~
+  SAY NAME1 #9528
+  SAY NAME2 #9528
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9528 #9528 USING ~bg2eer/tra/mf-thral.tra~
