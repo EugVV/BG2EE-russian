@@ -206,3 +206,8 @@ COPY_EXISTING ~ohrovs2.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9525 #9525 USING ~bg2eer/tra/mf-shovs.tra~
+
+COPY_EXISTING ~ohrshr23.cre~ ~override~
+  SAY NAME1 #84585
+  SAY NAME2 #84585
+  BUT_ONLY_IF_IT_CHANGES
