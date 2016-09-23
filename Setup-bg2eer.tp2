@@ -181,3 +181,12 @@ COPY_EXISTING ~kpfarm02.cre~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9522 #9522 USING ~bg2eer/tra/mf-citzn.tra~
+
+COPY_EXISTING ~mourner2.cre~ ~override~
+                            ~mourner6.cre~ ~override~
+                            ~mourner8.cre~ ~override~
+  SAY NAME1 #9523
+  SAY NAME2 #9523
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #9523 #9523 USING ~bg2eer/tra/mf-mourn.tra~
