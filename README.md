@@ -24,7 +24,9 @@ BG2EE-russian
 Поскольку русский перевод официально на вышел и в BGEE.lua нет строк для русского, выбрать русский из меню выбора языка не получится. Если русский не включился автоматически, его можно прописать вручную, отредактировав файл настроек Baldur.lua.
 Находим в Baldur.lua строку с SetPrivateProfileString('Language','Text', и прописываем туда
 
+```lua
 SetPrivateProfileString('Language','Text','ru_RU')
+```
 
 Baldur.lua расположен для Windows-версии игры в папке Документы\Baldur's Gate II - Enhanced Edition, для Linux-версии - в каталоге ~/.local/share/Baldur's Gate II - Enhanced Edition.
 Всё.
@@ -35,7 +37,9 @@ Baldur.lua расположен для Windows-версии игры в папк
 
 В переводе имеется полный набор шрифтов, как в оригинале. Для его включения редактируем Baldur.lua, находим там строку с SetPrivateProfileString('Fonts','ru_RU' и заменяем её на
 
+```lua
 SetPrivateProfileString('Fonts','ru_RU','')
+```
 
 Над переводом работали:
 -----------------------
