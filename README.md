@@ -21,21 +21,21 @@ BG2EE-russian
 -------------------
 Сборка перевода на [yandex](https://yadi.sk/d/kfKpvTiZpdcgJ), файл обновляется.
 Распаковываем собранный перевод в каталог с игрой.
-Поскольку русский перевод официально на вышел и в BGEE.lua нет строк для русского, выбрать русский из меню выбора языка не получится. Если русский не включился автоматически, его можно прописать вручную, отредактировав файл настроек Baldur.lua.
-Находим в Baldur.lua строку с SetPrivateProfileString('Language','Text', и прописываем туда
+Поскольку русский перевод официально на вышел и в BGEE.lua нет строк для русского, выбрать русский из меню выбора языка не получится. Если русский не включился автоматически, его можно прописать вручную, отредактировав файл настроек `Baldur.lua`.
+Находим в `Baldur.lua` строку с `SetPrivateProfileString('Language','Text'`, и прописываем туда
 
 ```lua
 SetPrivateProfileString('Language','Text','ru_RU')
 ```
 
-Baldur.lua расположен для Windows-версии игры в папке Документы\Baldur's Gate II - Enhanced Edition, для Linux-версии - в каталоге ~/.local/share/Baldur's Gate II - Enhanced Edition.
+`Baldur.lua` расположен для Windows-версии игры в папке `Документы\Baldur's Gate II - Enhanced Edition`, для Linux-версии - в каталоге `~/.local/share/Baldur's Gate II - Enhanced Edition`.
 Всё.
 
 Шрифты:
 -------
-В качестве шрифта по умолчанию (PTSERIF) в сборке доработанный шрифт NORMAL из игры. Его можно заменить на любой другой ttf-шрифт (необходимо наличие ё и кавычек-ёлочек), заменив файл lang\ru_RU\fonts\PTSERIF.ttf.
+В качестве шрифта по умолчанию (PTSERIF) в сборке доработанный шрифт NORMAL из игры. Его можно заменить на любой другой ttf-шрифт (необходимо наличие ё и кавычек-ёлочек), заменив файл `lang\ru_RU\fonts\PTSERIF.ttf`.
 
-В переводе имеется полный набор шрифтов, как в оригинале. Для его включения редактируем Baldur.lua, находим там строку с SetPrivateProfileString('Fonts','ru_RU' и заменяем её на
+В переводе имеется полный набор шрифтов, как в оригинале. Для его включения редактируем `Baldur.lua`, находим там строку с `SetPrivateProfileString('Fonts','ru_RU'` и заменяем её на
 
 ```lua
 SetPrivateProfileString('Fonts','ru_RU','')
