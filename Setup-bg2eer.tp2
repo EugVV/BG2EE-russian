@@ -7,6 +7,11 @@ STRING_SET_RANGE #0 #103216 USING ~bg2eer/tra/bg2eer.tra~
 
 COPY ~bg2eer/L_ru_RU.lua~   ~override/L_ru_RU.lua~
 
+COPY ~bg2eer/oh1fight.bio~   ~override/oh1fight.bio~
+COPY ~bg2eer/oh2mage.bio~   ~override/oh2mage.bio~
+COPY ~bg2eer/oh3thief.bio~   ~override/oh3thief.bio~
+COPY ~bg2eer/oh4cler.bio~   ~override/oh4cler.bio~
+
 BEGIN ~Override Male/Female CRE for Russian text~
 COPY_EXISTING ~amconw01.cre~ ~override~
                             ~amcust01.cre~ ~override~
