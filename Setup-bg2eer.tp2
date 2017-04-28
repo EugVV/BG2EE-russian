@@ -12,6 +12,8 @@ COPY ~bg2eer/oh2mage.bio~   ~override/oh2mage.bio~
 COPY ~bg2eer/oh3thief.bio~   ~override/oh3thief.bio~
 COPY ~bg2eer/oh4cler.bio~   ~override/oh4cler.bio~
 
+COPY ~bg2eer/includes.lua~   ~override/includes.lua~
+
 BEGIN ~Override Male/Female CRE for Russian text~
 COPY_EXISTING ~amconw01.cre~ ~override~
                             ~amcust01.cre~ ~override~
