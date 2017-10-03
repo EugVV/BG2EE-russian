@@ -10,4 +10,6 @@ for k, v in ipairs(lua_files) do
   end
 end
 
+table.insert(languages, {'ru_RU', 0, 0, 'Russian'})
+
 SetPrivateProfileString('Fonts','ru_RU','')
