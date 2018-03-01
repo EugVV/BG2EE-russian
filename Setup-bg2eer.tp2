@@ -122,11 +122,13 @@ COPY_EXISTING ~c6extr03.cre~ ~lang/ru_RU/override~
 
 STRING_SET_RANGE #9513 #9513 USING ~bg2eer/tra/mf-elvwa.tra~
 
+/* Implemented in 2.5, #22358 now
 COPY_EXISTING ~csheck1.cre~ ~lang/ru_RU/override~
                             ~csheck3.cre~ ~lang/ru_RU/override~
   SAY NAME1 #9514
   SAY NAME2 #9514
   BUT_ONLY_IF_IT_CHANGES
+*/
 
 STRING_SET_RANGE #9514 #9514 USING ~bg2eer/tra/mf-heckl.tra~
 
