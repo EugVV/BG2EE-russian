@@ -266,10 +266,12 @@ COPY_EXISTING ~reband04.cre~ ~lang/ru_RU/override~
 
 STRING_SET_RANGE #9530 #9530 USING ~bg2eer/tra/mf-bandt.tra~
 
+/* Implemented in 2.5, #30117 now
 COPY_EXISTING ~riftw01.cre~ ~lang/ru_RU/override~
   SAY NAME1 #9531
   SAY NAME2 #9531
   BUT_ONLY_IF_IT_CHANGES
+*/
 
 STRING_SET_RANGE #9531 #9531 USING ~bg2eer/tra/mf-disea.tra~
 
