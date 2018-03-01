@@ -58,6 +58,7 @@ COPY_EXISTING ~amconw01.cre~ ~lang/ru_RU/override~
 
 STRING_SET_RANGE #9509 #9509 USING ~bg2eer/tra/mf-commr.tra~
 
+/* Implemented in 2.5, #9430 now
 COPY_EXISTING ~dpfemale.cre~ ~lang/ru_RU/override~
                             ~pick1.cre~ ~lang/ru_RU/override~
                             ~sarfem02.cre~ ~lang/ru_RU/override~
@@ -78,6 +79,7 @@ COPY_EXISTING ~dpfemale.cre~ ~lang/ru_RU/override~
   SAY NAME1 #9510
   SAY NAME2 #9510
   BUT_ONLY_IF_IT_CHANGES
+*/
 
 STRING_SET_RANGE #9510 #9510 USING ~bg2eer/tra/mf-peasn.tra~
 
