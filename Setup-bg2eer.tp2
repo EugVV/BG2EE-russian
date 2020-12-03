@@ -236,10 +236,12 @@ COPY_EXISTING ~bounha03.cre~ ~lang/ru_RU/override~
 
 STRING_SET_RANGE #9526 #9526 USING ~bg2eer/tra/mf-bnthn.tra~
 
+/* Implemented in 2.6, #10711 now
 COPY_EXISTING ~pris01.cre~ ~lang/ru_RU/override~
   SAY NAME1 #9527
   SAY NAME2 #9527
   BUT_ONLY_IF_IT_CHANGES
+*/
 
 STRING_SET_RANGE #9527 #9527 USING ~bg2eer/tra/mf-prisn.tra~
 
