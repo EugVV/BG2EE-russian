@@ -83,39 +83,39 @@ COPY_EXISTING ~dpfemale.cre~ ~override~
 
 STRING_SET_RANGE #9510 #9510 USING ~bg2eer/tra/mf-peasn.tra~
 
-COPY_EXISTING ~amcst03.cre~ ~lang/ru_RU/override~
-                            ~ammerc04.cre~ ~lang/ru_RU/override~
-                            ~termer03.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~amcst03.cre~ ~override~
+                            ~ammerc04.cre~ ~override~
+                            ~termer03.cre~ ~override~
   SAY NAME1 #9511
   SAY NAME2 #9511
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9511 #9511 USING ~bg2eer/tra/mf-mercn.tra~
 
-COPY_EXISTING ~pircor03.cre~ ~lang/ru_RU/override~
-                            ~sarprovm.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~pircor03.cre~ ~override~
+                            ~sarprovm.cre~ ~override~
   SAY NAME1 #9512
   SAY NAME2 #9512
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9512 #9512 USING ~bg2eer/tra/mf-court.tra~
 
-COPY_EXISTING ~bshop02.cre~ ~lang/ru_RU/override~
-                            ~shop2.cre~ ~lang/ru_RU/override~
-                            ~slshop02.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~bshop02.cre~ ~override~
+                            ~shop2.cre~ ~override~
+                            ~slshop02.cre~ ~override~
   SAY NAME1 #13888
   SAY NAME2 #13888
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #13888 #13888 USING ~bg2eer/tra/mf-stork.tra~
 
-COPY_EXISTING ~c6extr03.cre~ ~lang/ru_RU/override~
-                            ~chgood05.cre~ ~lang/ru_RU/override~
-                            ~m05elf2.cre~ ~lang/ru_RU/override~
-                            ~sudead02.cre~ ~lang/ru_RU/override~
-                            ~suelf8.cre~ ~lang/ru_RU/override~
-                            ~suendel2.cre~ ~lang/ru_RU/override~
-                            ~suendel8.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~c6extr03.cre~ ~override~
+                            ~chgood05.cre~ ~override~
+                            ~m05elf2.cre~ ~override~
+                            ~sudead02.cre~ ~override~
+                            ~suelf8.cre~ ~override~
+                            ~suendel2.cre~ ~override~
+                            ~suendel8.cre~ ~override~
   SAY NAME1 #9513
   SAY NAME2 #9513
   BUT_ONLY_IF_IT_CHANGES
@@ -132,112 +132,111 @@ COPY_EXISTING ~csheck1.cre~ ~override~
 
 STRING_SET_RANGE #9514 #9514 USING ~bg2eer/tra/mf-heckl.tra~
 
-COPY_EXISTING ~daslave2.cre~ ~lang/ru_RU/override~
-                            ~daslave5.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~daslave2.cre~ ~override~
+                            ~daslave5.cre~ ~override~
   SAY NAME1 #9515
   SAY NAME2 #9515
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9515 #9515 USING ~bg2eer/tra/mf-slave.tra~
 
-COPY_EXISTING ~deadb02.cre~ ~lang/ru_RU/override~
-                            ~tanadv02.cre~ ~lang/ru_RU/override~
-                            ~tanadv05.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~deadb02.cre~ ~override~
+                            ~tanadv02.cre~ ~override~
+                            ~tanadv05.cre~ ~override~
   SAY NAME1 #9516
   SAY NAME2 #9516
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9516 #9516 USING ~bg2eer/tra/mf-adven.tra~
 
-COPY_EXISTING ~genth02.cre~ ~lang/ru_RU/override~
-                            ~maeguy02.cre~ ~lang/ru_RU/override~
-                            ~ohhghst1.cre~ ~lang/ru_RU/override~
-                            ~ohhghst2.cre~ ~lang/ru_RU/override~
-                            ~ohhghst3.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~genth02.cre~ ~override~
+                            ~maeguy02.cre~ ~override~
+                            ~ohhghst1.cre~ ~override~
+                            ~ohhghst2.cre~ ~override~
+                            ~ohhghst3.cre~ ~override~
   SAY NAME1 #9517
   SAY NAME2 #9517
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9517 #9517 USING ~bg2eer/tra/mf-thief.tra~
 
-COPY_EXISTING ~deltow02.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~deltow02.cre~ ~override~
   SAY NAME1 #9518
   SAY NAME2 #9518
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9518 #9518 USING ~bg2eer/tra/mf-patrn.tra~
 
-COPY_EXISTING ~beggar3.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~beggar3.cre~ ~override~
   SAY NAME1 #9519
   SAY NAME2 #9519
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9519 #9519 USING ~bg2eer/tra/mf-beggr.tra~
 
-COPY_EXISTING ~ffcust03.cre~ ~lang/ru_RU/override~
-                            ~ffcust05.cre~ ~lang/ru_RU/override~
-                            ~ftown7.cre~ ~lang/ru_RU/override~
-                            ~trtavp03.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~ffcust03.cre~ ~override~
+                            ~ffcust05.cre~ ~override~
+                            ~ftown7.cre~ ~override~
+                            ~trtavp03.cre~ ~override~
   SAY NAME1 #9520
   SAY NAME2 #9520
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9520 #9520 USING ~bg2eer/tra/mf-tvrnp.tra~
 
-COPY_EXISTING ~kaysmg04.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~kaysmg04.cre~ ~override~
   SAY NAME1 #9521
   SAY NAME2 #9521
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9521 #9521 USING ~bg2eer/tra/mf-smugg.tra~
 
-COPY_EXISTING ~kpfarm02.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~kpfarm02.cre~ ~override~
   SAY NAME1 #9522
   SAY NAME2 #9522
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9522 #9522 USING ~bg2eer/tra/mf-citzn.tra~
 
-COPY_EXISTING ~mourner2.cre~ ~lang/ru_RU/override~
-                            ~mourner6.cre~ ~lang/ru_RU/override~
-                            ~mourner8.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~mourner2.cre~ ~override~
+                            ~mourner6.cre~ ~override~
+                            ~mourner8.cre~ ~override~
   SAY NAME1 #9523
   SAY NAME2 #9523
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9523 #9523 USING ~bg2eer/tra/mf-mourn.tra~
 
-COPY_EXISTING ~ohnfmer1.cre~ ~lang/ru_RU/override~
-                            ~ohnmerc3.cre~ ~lang/ru_RU/override~
-                            ~ohnrwme2.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~ohnfmer1.cre~ ~override~
+                            ~ohnmerc3.cre~ ~override~
+                            ~ohnrwme2.cre~ ~override~
   SAY NAME1 #9524
   SAY NAME2 #9524
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9524 #9524 USING ~bg2eer/tra/mf-thmrc.tra~
 
-COPY_EXISTING ~ohrovs2.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~ohrovs2.cre~ ~override~
   SAY NAME1 #9525
   SAY NAME2 #9525
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9525 #9525 USING ~bg2eer/tra/mf-shovs.tra~
 
-COPY_EXISTING ~ohrshr23.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~ohrshr23.cre~ ~override~
   SAY NAME1 #84585
   SAY NAME2 #84585
   BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~bounha03.cre~ ~lang/ru_RU/override~
-                            ~pbhunt03.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~bounha03.cre~ ~override~
+                            ~pbhunt03.cre~ ~override~
   SAY NAME1 #9526
   SAY NAME2 #9526
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9526 #9526 USING ~bg2eer/tra/mf-bnthn.tra~
 
-/* Implemented in 2.6, #10711 now
-COPY_EXISTING ~pris01.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~pris01.cre~ ~override~
   SAY NAME1 #9527
   SAY NAME2 #9527
   BUT_ONLY_IF_IT_CHANGES
@@ -245,23 +244,23 @@ COPY_EXISTING ~pris01.cre~ ~lang/ru_RU/override~
 
 STRING_SET_RANGE #9527 #9527 USING ~bg2eer/tra/mf-prisn.tra~
 
-COPY_EXISTING ~pthral02.cre~ ~lang/ru_RU/override~
-                            ~pthral04.cre~ ~lang/ru_RU/override~
-                            ~pthral09.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~pthral02.cre~ ~override~
+                            ~pthral04.cre~ ~override~
+                            ~pthral09.cre~ ~override~
   SAY NAME1 #9528
   SAY NAME2 #9528
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9528 #9528 USING ~bg2eer/tra/mf-thral.tra~
 
-COPY_EXISTING ~qcirc02.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~qcirc02.cre~ ~override~
   SAY NAME1 #9529
   SAY NAME2 #9529
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9529 #9529 USING ~bg2eer/tra/mf-circw.tra~
 
-COPY_EXISTING ~reband04.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~reband04.cre~ ~override~
   SAY NAME1 #9530
   SAY NAME2 #9530
   BUT_ONLY_IF_IT_CHANGES
@@ -277,24 +276,24 @@ COPY_EXISTING ~riftw01.cre~ ~override~
 
 STRING_SET_RANGE #9531 #9531 USING ~bg2eer/tra/mf-disea.tra~
 
-COPY_EXISTING ~ar18arch.cre~ ~lang/ru_RU/override~
-                            ~mgketg02.cre~ ~lang/ru_RU/override~
-                            ~vakg02.cre~ ~lang/ru_RU/override~
-                            ~yarmy02.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~ar18arch.cre~ ~override~
+                            ~mgketg02.cre~ ~override~
+                            ~vakg02.cre~ ~override~
+                            ~yarmy02.cre~ ~override~
   SAY NAME1 #9532
   SAY NAME2 #9532
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9532 #9532 USING ~bg2eer/tra/mf-archr.tra~
 
-COPY_EXISTING ~worker02.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~worker02.cre~ ~override~
   SAY NAME1 #9533
   SAY NAME2 #9533
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9533 #9533 USING ~bg2eer/tra/mf-labor.tra~
 
-COPY_EXISTING ~zilarc01.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~zilarc01.cre~ ~override~
   SAY NAME1 #9534
   SAY NAME2 #9534
   BUT_ONLY_IF_IT_CHANGES
