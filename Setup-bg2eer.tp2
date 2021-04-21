@@ -2,8 +2,8 @@ BACKUP ~bg2eer/backup~
 AUTHOR ~Si1ver~
 VERSION ~V1.2~
 
-BEGIN ~Russian text for Baldurs Gate II: Enhanced Edition v2.6~
-STRING_SET_RANGE #0 #103583 USING ~bg2eer/tra/bg2eer.tra~
+BEGIN ~Russian text for Baldurs Gate II: Enhanced Edition v2.5~
+STRING_SET_RANGE #0 #103240 USING ~bg2eer/tra/bg2eer.tra~
 
 COPY ~bg2eer/L_ru_RU.lua~   ~override/L_ru_RU.lua~
 
