@@ -1,6 +1,6 @@
 BACKUP ~bg2eer/backup~
 AUTHOR ~Si1ver~
-VERSION ~V1.2~
+VERSION ~V1.3~
 
 BEGIN ~Russian text for Baldurs Gate II: Enhanced Edition v2.6~
 STRING_SET_RANGE #0 #103583 USING ~bg2eer/tra/bg2eer.tra~
@@ -13,8 +13,6 @@ COPY ~bg2eer/oh1fight.bio~   ~lang/ru_RU/override/oh1fight.bio~
 COPY ~bg2eer/oh2mage.bio~   ~lang/ru_RU/override/oh2mage.bio~
 COPY ~bg2eer/oh3thief.bio~   ~lang/ru_RU/override/oh3thief.bio~
 COPY ~bg2eer/oh4cler.bio~   ~lang/ru_RU/override/oh4cler.bio~
-
-COPY ~bg2eer/M_RusFnt.lua~   ~override/M_RusFnt.lua~
 
 BEGIN ~Override Male/Female CRE for Russian text~
 /* Implemented in 2.5, #9428 now
@@ -300,3 +298,23 @@ COPY_EXISTING ~zilarc01.cre~ ~lang/ru_RU/override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #9534 #9534 USING ~bg2eer/tra/mf-blrvr.tra~
+
+BEGIN ~Complete Russian fonts set~
+// BG2:EE fonts
+COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/NORMAL.ttf~
+COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/POSTANTI.ttf~
+COPY ~bg2eer/fonts/REALMS.ttf~   ~override/REALMS.ttf~
+COPY ~bg2eer/fonts/STONESML.ttf~   ~override/MODESTOM.ttf~
+COPY ~bg2eer/fonts/STONESML.ttf~   ~override/STONESML.ttf~
+COPY ~bg2eer/fonts/TOOLTIP.ttf~   ~override/TOOLTIP.ttf~
+
+// SoD fonts
+COPY ~bg2eer/fonts/REALMS.ttf~   ~override/SHERWOOD.ttf~
+
+// IWD:EE fonts. There is no Russian STONEBIG in set, so just copy of NORMAL
+COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/STONEBIG.ttf~
+
+// Used in Dragonspear UI++
+COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/rgtraj.ttf~
+
+COPY ~bg2eer/M_RusFnt.lua~   ~override/M_RusFnt.lua~
