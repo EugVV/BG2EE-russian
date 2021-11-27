@@ -1,6 +1,6 @@
 BACKUP ~bg2eer/backup~
 AUTHOR ~Si1ver~
-VERSION ~V1.3~
+VERSION ~V1.4~
 
 BEGIN ~Russian text for Baldurs Gate II: Enhanced Edition v2.6~
 STRING_SET_RANGE #0 #103583 USING ~bg2eer/tra/bg2eer.tra~
@@ -321,5 +321,30 @@ COPY ~bg2eer/fonts/rgtraj.ttf~   ~lang/ru_RU/fonts/rgtraj.ttf~
 
 // Used in lefreut's Enhanced UI
 COPY ~bg2eer/fonts/TOOLTIP.ttf~   ~override/TOOLFONT.ttf~
+
+COPY ~bg2eer/M_RusFnt.lua~   ~override/M_RusFnt.lua~
+
+BEGIN ~Complete Russian fonts set in lang/ru_RU/fonts~
+MKDIR ~lang/ru_RU/fonts~
+
+// BG2:EE fonts
+COPY ~bg2eer/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/NORMAL.ttf~
+COPY ~bg2eer/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/POSTANTI.ttf~
+COPY ~bg2eer/fonts/REALMS.ttf~   ~lang/ru_RU/fonts/REALMS.ttf~
+COPY ~bg2eer/fonts/STONESML.ttf~   ~lang/ru_RU/fonts/MODESTOM.ttf~
+COPY ~bg2eer/fonts/STONESML.ttf~   ~lang/ru_RU/fonts/STONESML.ttf~
+COPY ~bg2eer/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLTIP.ttf~
+
+// SoD fonts
+COPY ~bg2eer/fonts/REALMS.ttf~   ~lang/ru_RU/fonts/SHERWOOD.ttf~
+
+// IWD:EE fonts. There is no Russian STONEBIG in set, so just copy of NORMAL
+COPY ~bg2eer/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/STONEBIG.ttf~
+
+// Used in Dragonspear UI++
+COPY ~bg2eer/fonts/rgtraj.ttf~   ~lang/ru_RU/fonts/rgtraj.ttf~
+
+// Used in lefreut's Enhanced UI
+COPY ~bg2eer/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLFONT.ttf~
 
 COPY ~bg2eer/M_RusFnt.lua~   ~override/M_RusFnt.lua~
