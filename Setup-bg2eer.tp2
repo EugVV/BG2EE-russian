@@ -300,6 +300,8 @@ COPY_EXISTING ~zilarc01.cre~ ~lang/ru_RU/override~
 STRING_SET_RANGE #9534 #9534 USING ~bg2eer/tra/mf-blrvr.tra~
 
 BEGIN ~Complete Russian fonts set~
+MKDIR ~lang/ru_RU/fonts~
+
 // BG2:EE fonts
 COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/NORMAL.ttf~
 COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/POSTANTI.ttf~
@@ -315,7 +317,7 @@ COPY ~bg2eer/fonts/REALMS.ttf~   ~override/SHERWOOD.ttf~
 COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/STONEBIG.ttf~
 
 // Used in Dragonspear UI++
-COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/rgtraj.ttf~
+COPY ~bg2eer/fonts/rgtraj.ttf~   ~lang/ru_RU/fonts/rgtraj.ttf~
 
 // Used in lefreut's Enhanced UI
 COPY ~bg2eer/fonts/TOOLTIP.ttf~   ~override/TOOLFONT.ttf~
