@@ -317,4 +317,7 @@ COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/STONEBIG.ttf~
 // Used in Dragonspear UI++
 COPY ~bg2eer/fonts/NORMAL.ttf~   ~override/rgtraj.ttf~
 
+// Used in lefreut's Enhanced UI
+COPY ~bg2eer/fonts/TOOLTIP.ttf~   ~override/TOOLFONT.ttf~
+
 COPY ~bg2eer/M_RusFnt.lua~   ~override/M_RusFnt.lua~
