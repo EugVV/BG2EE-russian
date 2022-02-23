@@ -1,6 +1,6 @@
 BACKUP ~bg2eer/backup~
 AUTHOR ~Si1ver~
-VERSION ~V1.4~
+VERSION ~V1.9~
 
 BEGIN ~Russian text for Baldurs Gate II: Enhanced Edition v2.6~
 STRING_SET_RANGE #0 #103583 USING ~bg2eer/tra/bg2eer.tra~
