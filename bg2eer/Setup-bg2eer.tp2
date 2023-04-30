@@ -347,7 +347,7 @@ COPY ~bg2eer/fonts/rgtraj.ttf~   ~lang/ru_RU/fonts/rgtraj.ttf~
 // Used in lefreut's Enhanced UI
 COPY ~bg2eer/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLFONT.ttf~
 
-// Used in Unfinity UI++
+// Used in Infinity UI++
 COPY ~bg2eer/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/rgfont.ttf~
 
 COPY ~bg2eer/M_RusFnt.lua~   ~override/M_RusFnt.lua~
